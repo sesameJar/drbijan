@@ -21,3 +21,44 @@ div.gl{
 	height:15px;
 	width:1349px;
 }
+div.firstrow{
+	margin: 30px 160px 30px 160px;
+}
+div.box1{
+	height:300px;
+	padding: 20px;
+	width:300px;
+	float: left;
+}
+div.box2{
+	height:300px;
+	padding: 20px;
+	width:300px;
+	float:left;
+}
+div.box3{
+	height:300px;
+	padding: 20px;
+	margin-left:650px;
+
+}
+div.secondrow{
+		margin: 0px 160px 10px 160px;
+}
+div.box4{
+	height:300px;
+	padding: 20px;
+	width:300px;
+	float: left;
+}
+div.box5{
+	height:300px;
+	padding: 20px;
+	width:300px;
+	float:left;
+}
+div.box6{
+	height:300px;
+	padding: 20px;
+	margin-left:650px;
+}
