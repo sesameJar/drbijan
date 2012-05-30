@@ -1,0 +1,23 @@
+div{
+	border:1px solid red;
+}
+
+
+div.container{
+	background-image: url(images/backguid.png);
+	width:1349px;
+	height:1302px;
+	background-repeat:no-repeat;
+}
+div.logo{
+	height:160px;
+	width:600px;
+}
+div.menu{
+	margin-left:600px;
+	height:160px;
+}
+div.gl{
+	height:15px;
+	width:1349px;
+}
