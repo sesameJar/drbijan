@@ -22,7 +22,7 @@ div.gl{
 	width:1349px;
 }
 div.firstrow{
-	margin: 30px 160px 30px 160px;
+	margin: 30px 160px 10px 160px;
 }
 div.box1{
 	height:300px;
@@ -61,4 +61,34 @@ div.box6{
 	height:300px;
 	padding: 20px;
 	margin-left:650px;
+}
+div.footer{
+	height:380px;
+	width:1349px;
+}
+div.firstrowf{
+	margin: 30px 200px 30px 200px;
+	height:194px;
+
+}
+div.tb1{
+	height:194px;
+	float: left;
+	width:237px;
+}
+div.tb2{
+	height:194px;
+	float: left;
+	width:237px;
+}
+div.tb3{
+	height:194px;
+	float: left;
+	width:237px;
+}
+div.sub{
+	margin-left:711;
+}
+div.secondrowf{
+	height:127px;
 }
