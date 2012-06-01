@@ -1,3 +1,4 @@
+
 *{
 	
 	outline:1px dashed red;
@@ -41,7 +42,29 @@ nav{
 	margin-top: 30px;
 	min-height:100px;
 }
-section.content header.courses{
+section.content section.courses{
 	min-height:105px;
 	width: 950px;
 }
+section.content section.top{
+	width:950px;
+	min-height:150px;
+}
+section.content section.bottom{
+	width:950px;
+	min-height:200px;
+}
+section.content article{
+	min-height:150px;
+}
+
+
+
+
+
+
+
+
+
+
+
