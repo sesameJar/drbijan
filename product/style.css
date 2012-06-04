@@ -1,104 +1,120 @@
-div{
-	border:1px solid red;
+*,div{
+	outline:1px solid red;
 }
 
 
-div.container{
+.container{
 	background-image: url(images/backguid.png);
 	width:1349px;
-	height:1302px;
+	min-height:1302px;
 	background-repeat:no-repeat;
 }
-div.logo{
-	height:160px;
+.logo{
+	min-height:160px;
 	width:600px;
 	background-image:url(images/bg.jpg);
 }
-div.menu{
+.menu{
 	margin-left:600px;
-	height:160px;
+	min-height:160px;
 }
-div.gl{
-	height:15px;
+.gl{
+	min-height:21px;
 	width:1349px;
 	background-image: url(images/gl.jpg);
 
 }
-div.firstrow{
-	margin: 30px 160px 10px 160px;
+.firstrow{
+	margin: 30px 215px 10px 160px;
 }
-div.box1{
-	height:300px;
-	padding: 20px;
+.box1{
+	min-height:300px;
+	padding: 16px;
 	width:300px;
 	float: left;
 }
-div.box2{
-	height:300px;
-	padding: 20px;
+.box2{
+	min-height:300px;
+	padding: 16px 9px;
 	width:300px;
 	float:left;
 }
-div.box3{
-	height:300px;
-	padding: 20px;
+.box3{
+	min-height:300px;
+	padding: 16px;
 	margin-left:650px;
 
 }
-div.secondrow{
-		margin: 0px 160px 10px 160px;
+.secondrow{
+	margin: 0px 215px 10px 160px;
 }
-div.box4{
-	height:300px;
-	padding: 20px;
+
+.box4{
+	min-height:300px;
+	padding: 9px;
 	width:300px;
 	float: left;
 }
-div.box5{
-	height:300px;
-	padding: 20px;
+.box5{
+	min-height:300px;
+	padding: 9px;
 	width:300px;
 	float:left;
 }
-div.box6{
-	height:300px;
-	padding: 20px;
+.box6{
+	min-height:300px;
+	padding: 9px;
 	margin-left:650px;
 }
-div.footer{
-	height:380px;
+.footer{
+	min-height:380px;
 	width:1349px;
 }
-div.firstrowf{
+.firstrowf{
 	margin: 30px 200px 30px 200px;
-	height:194px;
+	min-height:194px;
 
 }
-div.tb1{
-	height:194px;
+.tb1{
+	min-height:194px;
 	float: left;
 	width:237px;
 }
-div.tb2{
-	height:194px;
+.tb2{
+	min-height:194px;
 	float: left;
 	width:237px;
 }
-div.tb3{
-	height:194px;
+.tb3{
+	min-height:194px;
 	float: left;
 	width:237px;
 }
-div.sub{
+.sub{
 	margin-left:711;
 }
-div.secondrowf{
-	height:127px;
+.secondrowf{
+	min-height:127px;
 }
-div.reallogo{
+.reallogo{
 	width:288px;
-	height:94px;
+	min-height:94px;
 	background-image:url(images/logo.png);
 	background-repeat:no-repeat;
 	margin: 30px 0px 0px 200px;
+}
+.dropcap1{
+	margin: 5px 2px 0px 28px;
+}
+.p{
+	font-weight: bold;
+	font-size: 100.1%;
+}
+.dropcap2{
+	margin:5px 9px 5px 23px;
+
+}
+.dropcap3{
+	margin: 5px 2px 0px 18px;
+
 }
