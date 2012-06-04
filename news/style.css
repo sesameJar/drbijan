@@ -21,15 +21,57 @@ div.container{
 	
 }
 
-.logo{
+.logo {
 	float: left;
-	width: 310px;
-	margin-top: 30px;
-	min-height: 100px;
+	width: 290px;
+	margin-top: 33px;
+	min-height: 93px;
+}
+
+.menu{
+	width: 533px;
+	margin-left: 407px;
+	margin-top: 52px;
+	min-height: 74px;
 }
 
 .green-line{
+	margin-bottom: 50px;
 	min-height: 20px;
+}
+
+.article{
+}
+
+.article-header{
+	margin-top: 40px;
+}
+
+.article-date{
+	float: left;
+	width: 58px;
+	min-height: 58px;
+}
+
+.article-title{
+	margin-left: 65px;
+	min-height: 58px;
+}
+
+.article-body{
+	margin-top: 15px;
+}
+
+.article-photo{
+	float: left;
+	width: 180px;
+	min-height: 140px;
+}
+
+.article-text{
+	margin-left: 200px;
+	margin-right: 10px;
+	min-height: 140px;
 }
 
 .section{
