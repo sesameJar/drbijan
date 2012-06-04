@@ -40,6 +40,9 @@ div.container{
 	min-height: 20px;
 }
 
+.section{
+}
+
 .article{
 }
 
@@ -74,10 +77,16 @@ div.container{
 	min-height: 140px;
 }
 
-.section{
+section.page-number {
+	min-height: 130px;
+}
+
+footer.footer {
 	
 }
 
-.footer{
-	
+footer div.box{
+	float: left;
+	width: 237px;
+	min-height: 260px;
 }
