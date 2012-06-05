@@ -33,10 +33,84 @@ div.container{
 }
 
 .menu{
-	width: 533px;
-	margin-left: 407px;
+	width: 560px;
+	margin-left: 380px;
 	margin-top: 52px;
 	min-height: 74px;
+}
+
+nav.menu ul{
+	list-style-type: none;
+}
+
+nav.menu li{
+	float: left;
+	padding: 0 18px;
+}
+
+nav.menu li span{
+	text-align: center;
+	display: block;
+	margin-bottom: 3px;
+}
+
+nav.menu li span.up-line{
+	font-family: Tahoma;
+	font-size: 16px;
+	font-weight: bold;
+	color: #ccc;
+}
+
+nav.menu li span.down-line{
+	font-family: Tahoma;
+	font-size: 13px;
+	font-weight: 300;
+	color: #555;
+}
+
+nav.menu li span.home-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/home.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li span.news-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/news.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li span.services-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/services.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li span.products-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/products.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li span.contacts-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/contacts.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li a{
+	text-align: center;
+	text-decoration: none;
 }
 
 .green-line{
