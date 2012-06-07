@@ -57,6 +57,13 @@ section.content section.bottom{
 section.content article{
 	min-height:150px;
 }
+footer.services section.info section{
+	min-height:250px;
+
+}
+footer.services address{
+	min-height:250px;
+}
 
 
 
