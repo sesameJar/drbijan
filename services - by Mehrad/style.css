@@ -65,6 +65,44 @@ footer.services address{
 	min-height:250px;
 }
 
+footer section h1 {
+	color: white;
+	font-size: 27px;
+	font-family: Tahoma;
+	padding-top: 45px;
+	padding-bottom: 20px;
+	vertical-align:bottom;
+
+}
+footer.services ul{
+	list-style-type:none;
+}
+footer.services ul li{
+	display: block;
+	border-top:1px solid #aaa;
+	padding:7px 0px 7px 9px;
+	color: white;
+}
+
+footer address h1 {
+	color: white;
+	font-size: 27px;
+	font-family: Tahoma;
+	padding-top: 45px;
+	padding-bottom: 20px;
+	vertical-align:bottom;
+
+}
+footer section.copyright{
+	padding:45px 320px;
+	min-height:85px;
+
+}
+footer.services section.copyright section{
+	color:white;
+	font-size: 17px;
+	
+}
 
 
 
