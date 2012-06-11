@@ -17,8 +17,6 @@ div.container{
 	width: 950px;
 	margin: 0 auto;
 	direction: rtl;
-	background-image:url('images/background.jpg');
-	background-repeat: no-repeat;
 }
 
 .header{
@@ -30,11 +28,12 @@ div.container{
 
 .logo {
 	float: right;
-	margin-right: 80px;
+	margin-right: 70px;
 }
 
 .menu{
-	margin-right: 460px;
+	margin-right: 420px;
+	margin-top: 35px;
 }
 
 nav.menu ul{
