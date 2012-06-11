@@ -50,7 +50,7 @@
 
 	/* avoid visible outlines on DIV containers in Webkit browsers */
 	div {
-		outline:1px dashed red;
+		/* outline:1px dashed red; */
 	}
 
 	/* HTML 5 - adjusting visual formatting model to block level */
