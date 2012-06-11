@@ -1,14 +1,20 @@
 *{
-	outline: 1px dashed red;
+	/* outline: 1px dashed red; */
 }
 
 .clear{
 	clear:both;
+	width: 0;
+	height: 0;
+	min-height: 0;
+	min-width: 0;
+	border: 0 none;
+	padding: 0;
+	margin: 0;
 }
 
 div.container{
 	width: 950px;
-	min-height: 804px;
 	margin: 0 auto;
 	direction: rtl;
 	background-image:url('images/background.jpg');
@@ -16,20 +22,19 @@ div.container{
 }
 
 .header{
-	min-height: 127px;
-	padding-top: 33px;
+	min-height: 110px;
+	padding-top: 50px;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
 }
 
 .logo {
 	float: right;
-	width: 290px;
-	margin-right: 10px;
-	min-height: 93px;
+	margin-right: 80px;
 }
 
 .menu{
 	margin-right: 460px;
-    margin-top: 20px;
 }
 
 nav.menu ul{
@@ -137,7 +142,7 @@ nav.menu li a{
 .green-line{
 	margin-bottom: 50px; /* important for white space bellow of green line*/
 	min-height: 20px;
-	background-image: url('images/green-line.png');
+	background-image: url('images/green-line.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
 }
@@ -148,45 +153,55 @@ section.content-holder{
 
 /*content of each page place in this section-holder*/
 
-
 footer.footer {
 	padding-top: 1px;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
 }
 
-footer.footer > div{
+footer.footer > div{   /* space between boxes and copyright panel*/
 		margin-bottom: 20px;
 }
+
 footer div.box{
 	float: right;
-	width: 237px;
+	width: 215px;
+	padding-left: 22px;
 }
 
 footer div.last-box{
 	margin-right: 712px;
+	padding-left: 22px;
 }
 
 footer div h1 {
-	color: white;
-	font-size: 27px;
+	color: #060;;
+	font-size: 16px;
+	font-weight: bold;
 	font-family: Tahoma;
-	padding-top: 45px;
-	padding-bottom: 20px;
-	vertical-align:bottom;
-
+	padding: 45px 10px 20px 10px;
 }
+
 footer.footer ul{
 	list-style-type:none;
 }
+
 footer.footer ul li{
 	display: block;
-	border-top:1px solid #aaa;
+	border-top:1px dashed #444;
 	padding:7px 7px 9px 0px;
-	color: white;
+	font-family: Tahoma;
+	font-size: 13px;
+	color: #ccc;
 }
-
 
 footer div.copyright{
 	min-height: 35px;
-	padding: 36px 330px 40px;
+	padding: 36px 325px 40px;
+	color: #aaa;
+	font-family: Tahoma;
+	font-size: 12px;
+	text-align: center;
+	background-color: #000;
 }
 
