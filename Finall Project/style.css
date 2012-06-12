@@ -188,8 +188,15 @@ footer.footer ul{
 footer.footer ul li{
 	display: block;
 	border-top:1px dashed #444;
-	padding:7px 7px 9px 0px;
+	padding:7px 14px 9px 0px;
 	font-family: Tahoma;
+	font-size: 13px;
+	color: #ccc;
+}
+
+footer.footer ul li a{
+	font-family: Tahoma;
+	text-decoration: none;
 	font-size: 13px;
 	color: #ccc;
 }
