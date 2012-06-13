@@ -17,6 +17,9 @@ div.container{
 	width: 950px;
 	margin: 0 auto;
 	direction: rtl;
+	font-family: Tahoma;
+	text-decoration: none;
+	font-size: 12px;
 }
 
 .header{
@@ -52,7 +55,7 @@ nav.menu li span{
 }
 
 nav.menu li span.up-line{
-	font-family: Tahoma;
+	font-family: inherit;
 	font-size: 14px;
 	font-weight: bold;
 	color: #ccc;
@@ -63,7 +66,7 @@ nav.menu li:hover span.up-line{
 }
 
 nav.menu li span.down-line{
-	font-family: Tahoma;
+	font-family: inherit;
 	font-size: 13px;
 	font-weight: 300;
 	color: #555;
@@ -135,7 +138,7 @@ nav.menu li:hover span.contacts-img{
 
 nav.menu li a{
 	text-align: center;
-	text-decoration: none;
+	text-decoration: inherit;
 }
 
 .green-line{
@@ -177,7 +180,7 @@ footer div h1 {
 	color: #060;;
 	font-size: 16px;
 	font-weight: bold;
-	font-family: Tahoma;
+	font-family: inherit;
 	padding: 45px 10px 20px 10px;
 }
 
@@ -189,24 +192,36 @@ footer.footer ul li{
 	display: block;
 	border-top:1px dashed #444;
 	padding:7px 14px 9px 0px;
-	font-family: Tahoma;
+	font-family: inherit;
 	font-size: 13px;
-	color: #ccc;
+	color: #aaa;
 }
 
 footer.footer ul li a{
-	font-family: Tahoma;
-	text-decoration: none;
-	font-size: 13px;
-	color: #ccc;
+	font-family: inherit;
+	text-decoration: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+footer.footer ul li a:hover{
+	color: #060;
+}
+
+footer.footer ul li a:active{
+	color: #3a3;
+}
+
+footer.footer ul li a:visited{
+	color: #555;
 }
 
 footer div.copyright{
 	min-height: 35px;
 	padding: 36px 325px 40px;
 	color: #aaa;
-	font-family: Tahoma;
-	font-size: 12px;
+	font-family: inherit;
+	font-size: inherit;
 	text-align: center;
 	background-color: #000;
 }
