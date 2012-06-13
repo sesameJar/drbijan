@@ -13,11 +13,39 @@
 	margin: 0;
 }
 
+div.main-container{
+	margin: 0 auto;
+	direction: rtl;
+	font-family: Tahoma;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+div.main-back{
+	width:6000px;
+	position: absolute;
+	z-index: -1;
+}
+
+div.background-up-texture{
+	min-height: 160px;
+	background-image: url('images/bg.jpg');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+div.background-green-line{
+	min-height: 20px;
+	background-image: url('images/back-green-line.png');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
 div.container{
 	width: 950px;
 	margin: 0 auto;
 	direction: rtl;
-	font-family: Yekan, B Yekan, Tahoma;
+	font-family: Tahoma;
 	text-decoration: none;
 	font-size: 12px;
 }
@@ -149,11 +177,11 @@ nav.menu li a{
 	background-position: top;
 }
 
-section.content-holder{
+section.content-holder{ /*content of each page place in this section-holder*/
 	min-height: 204px;
 }
 
-/*content of each page place in this section-holder*/
+
 
 footer.footer {
 	padding-top: 1px;
