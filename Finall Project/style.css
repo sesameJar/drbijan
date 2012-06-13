@@ -17,7 +17,7 @@ div.container{
 	width: 950px;
 	margin: 0 auto;
 	direction: rtl;
-	font-family: Tahoma;
+	font-family: Yekan, B Yekan, Tahoma;
 	text-decoration: none;
 	font-size: 12px;
 }
@@ -92,12 +92,12 @@ nav.menu li span.news-img{
 	margin: 0 auto;
 	width: 37px;
 	height: 31px;
-	background-image: url('images/news.png');
+	background-image: url('images/about.png');
 	background-repeat: no-repeat;
 }
 
 nav.menu li:hover span.news-img{
-	background-image: url('images/news1.png');
+	background-image: url('images/about1.png');
 }
 
 nav.menu li span.services-img{
