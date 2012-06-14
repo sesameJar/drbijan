@@ -1,5 +1,5 @@
 *{
-	/* outline: 1px dashed red; */
+	/*outline: 1px dashed red;*/
 }
 
 .clear{
@@ -13,48 +13,64 @@
 	margin: 0;
 }
 
-div.main-container{
+
+.main-container{
 	margin: 0 auto;
 	direction: rtl;
 	font-family: Tahoma;
-	text-decoration: none;
 	font-size: 12px;
 }
 
-div.main-back{
-	width:6000px;
-	position: absolute;
-	z-index: -1;
-}
-
-div.background-up-texture{
+.header-container{
+	margin: 0 auto;
+	direction: inherit;
 	min-height: 160px;
 	background-image: url('images/bg.jpg');
 	background-repeat: repeat-x;
-	background-position: top;
 }
 
-div.background-green-line{
+.green-line-container{
+	margin: 0 auto;
+	direction: inherit;
 	min-height: 20px;
 	background-image: url('images/back-green-line.png');
 	background-repeat: repeat-x;
-	background-position: top;
 }
 
-div.container{
-	width: 950px;
+.slider-container{
 	margin: 0 auto;
-	direction: rtl;
-	font-family: Tahoma;
-	text-decoration: none;
-	font-size: 12px;
+	direction: inherit;
+	min-height: 274px;
+	background-image: url('images/back-green-line.png');
+	background-repeat: repeat;
+}
+
+.content-holder-container{
+	margin: 0 auto;
+	direction: inherit;
+	min-height: 204px;
+}
+
+.footer-container{
+	margin: 0 auto;
+	direction: inherit;
+	min-height: 231px;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
+}
+
+.copyright-container{
+	margin: 0 auto;
+	padding: 20px;
+	direction: inherit;
+	background-color: black;
 }
 
 .header{
+	width: 950px;
+	margin: 0 auto;
 	min-height: 110px;
 	padding-top: 50px;
-	background-image: url(images/bg.jpg);
-	background-repeat: repeat;
 }
 
 .logo {
@@ -90,7 +106,7 @@ nav.menu li span.up-line{
 }
 
 nav.menu li:hover span.up-line{
-	color: #282;
+	color: #5a0;
 }
 
 nav.menu li span.down-line{
@@ -170,28 +186,33 @@ nav.menu li a{
 }
 
 .green-line{
-	margin-bottom: 50px; /* important for white space bellow of green line*/
+	width: 950px;
+	margin: 0 auto;
+	direction: inherit;
 	min-height: 20px;
 	background-image: url('images/green-line.jpg');
 	background-repeat: no-repeat;
-	background-position: top;
 }
 
 section.content-holder{ /*content of each page place in this section-holder*/
+	width: 950px;
+	margin: 0 auto;
+	direction: inherit;
 	min-height: 204px;
 }
 
-
+/* Place of slider CSS codes ... */
 
 footer.footer {
+	width: 950px;
+	margin: 0 auto;
+	direction: inherit;
 	padding-top: 1px;
-	background-image: url(images/bg.jpg);
-	background-repeat: repeat;
 }
 
-footer.footer > div{   /* space between boxes and copyright panel*/
+footer.footer > div{    space between boxes and copyright panel
 		margin-bottom: 20px;
-}
+} 
 
 footer div.box{
 	float: right;
@@ -233,24 +254,28 @@ footer.footer ul li a{
 }
 
 footer.footer ul li a:hover{
-	color: #060;
+	color: #5a0;
 }
 
 footer.footer ul li a:active{
-	color: #3a3;
+	color: #5f0;
 }
 
 footer.footer ul li a:visited{
 	color: #555;
 }
 
-footer div.copyright{
-	min-height: 35px;
-	padding: 36px 325px 40px;
-	color: #aaa;
-	font-family: inherit;
-	font-size: inherit;
-	text-align: center;
-	background-color: #000;
+div.copyright{
+	width: 950px;
+	margin: 0 auto;
+	min-height: 70px;
+	direction: inherit;
 }
 
+div.copyright p{
+	text-align: center;
+	color: #777;
+	font-family: inherit;
+	font-size: inherit;
+	line-height: 1.7;
+}
