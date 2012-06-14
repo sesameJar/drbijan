@@ -210,8 +210,8 @@ footer.footer {
 	padding-top: 1px;
 }
 
-footer.footer > div{    space between boxes and copyright panel
-		margin-bottom: 20px;
+footer.footer > div{    /*space between boxes and copyright panel*/
+		padding-bottom: 30px;
 } 
 
 footer div.box{
