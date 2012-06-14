@@ -268,6 +268,9 @@ div.slideshow .train{
 	width : 3900px; /* 4*950 + meghdar vase adam taghir dar ayande */
 	position : relative;
 	-webkit-transition : left 916ms;
+	-ms-transition : all 916ms;
+	-o-transition : all 916ms;
+	-moz-transition : all 916ms;
 }
 
 div.slideshow .train > div{
@@ -293,10 +296,16 @@ div.slideshow li{
 	float: left;
 	margin-right:5px;
 	-webkit-transition : all 800ms;
+	-ms-transition : all 800ms;
+	-o-transition : all 800ms;
+	-moz-transition : all 800ms;
 }
 
 div.slideshow li:hover{
 	background-color:#111;
 	-webkit-transition : all 200ms;
+	-ms-transition : all 200ms;
+	-o-transition : all 200ms;
+	-moz-transition : all 200ms;
 }
 
