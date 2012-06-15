@@ -35,10 +35,10 @@ div.background-up-texture{
 }
 
 div.background-green-line{
-	min-height: 20px;
-	background-image: url('images/back-green-line.png');
-	background-repeat: repeat-x;
-	background-position: top;
+  min-height: 273px;
+  background-repeat: repeat-x;
+  background-position: top;
+  background-color:rgb(58,158,1);
 }
 
 div.container{
@@ -172,9 +172,9 @@ nav.menu li a{
 .green-line{
 	margin-bottom: 50px; /* important for white space bellow of green line*/
 	min-height: 20px;
-	background-image: url('images/green-line.jpg');
 	background-repeat: no-repeat;
 	background-position: top;
+	background-color:rgb(81,156,1);
 }
 
 section.content-holder{ /*content of each page place in this section-holder*/
@@ -252,5 +252,56 @@ footer div.copyright{
 	font-size: inherit;
 	text-align: center;
 	background-color: #000;
+}
+
+div.slideshow{
+	width : 950px;
+	overflow : hidden;
+	margin : 0 auto;
+}
+
+div.slideshow .train{
+	width : 3900px; /* 4*950 + meghdar vase adam taghir dar ayande */
+	position : relative;
+	-webkit-transition : left 916ms;
+	-moz-transition: left 916ms;
+	-ms-transition: left 916ms;
+	-o-transition: left 916ms;
+}
+
+div.slideshow .train > div{
+	float : right;
+}
+
+div.slideshow .train > div > img{
+	display : block;
+}
+
+div.slideshow ul.btns{
+	list-style-type : none;
+	position:absolute;
+	left:620px;
+	top:390px;
+}
+
+div.slideshow li{
+	width:15px;
+	height:15px;
+	background-color:#FEF;
+	border-radius:50%;
+	float: left;
+	margin-right:5px;
+	-webkit-transition : all 800ms;
+	-moz-transition: all 800ms;
+	-ms-transition: all 800ms;
+	-o-transition: all 800ms;
+}
+
+div.slideshow li:hover{
+	background-color:#111;
+	-webkit-transition : all 200ms;
+	-moz-transition: all 200ms;
+	-ms-transition: all 200ms;
+	-o-transition: all 200ms;
 }
 
