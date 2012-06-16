@@ -48,7 +48,41 @@
 .content-holder-container{
 	margin: 0 auto;
 	direction: inherit;
-	min-height: 204px;
+}
+
+section.content-holder{
+	padding-bottom: 50px;
+}
+
+section.content-holder article header{
+	direction: inherit;
+	min-height: 40px;
+}
+
+section.content-holder article header h1{
+	padding: 20px 0;
+	font-size: 13px;
+	color: #060;
+	font-weight: bold;
+}
+
+section.content-holder div.article-image{
+	width: 150px;
+	height:150px;
+	float: right;
+	padding-left: 10px;
+}
+
+section.content-holder article.article-body{
+	direction: inherit;
+	margin-right: 165px
+}
+
+section.content-holder article.article-body p{
+	direction: inherit;
+	line-height: 12pt;
+	padding-bottom: 5px;
+	color: #666;
 }
 
 .footer-container{
@@ -194,14 +228,63 @@ nav.menu li a{
 	background-repeat: no-repeat;
 }
 
+div.slideshow{
+	width : 950px;
+	overflow : hidden;
+	margin : 0 auto;
+}
+
+div.slideshow .train{
+	width : 3900px;
+	position : relative;
+	-webkit-transition : left 916ms;
+	-ms-transition : all 916ms;
+	-o-transition : all 916ms;
+	-moz-transition : all 916ms;
+}
+
+div.slideshow .train > div{
+	float : right;
+}
+
+div.slideshow .train > div > img{
+  display : block;
+}
+
+div.slideshow ul.btns{
+	list-style-type : none;
+	position:absolute;
+	left:620px;
+	top:390px;
+}
+
+div.slideshow li{
+	width:15px;
+	height:15px;
+	background-color:#FEF;
+	border-radius:50%;
+	float: left;
+	margin-right:5px;
+	-webkit-transition : all 800ms;
+	-ms-transition : all 800ms;
+	-o-transition : all 800ms;
+	-moz-transition : all 800ms;
+}
+
+div.slideshow li:hover{
+	background-color:#111;
+	-webkit-transition : all 200ms;
+	-ms-transition : all 200ms;
+	-o-transition : all 200ms;
+	-moz-transition : all 200ms;
+}
+
 section.content-holder{ /*content of each page place in this section-holder*/
 	width: 950px;
 	margin: 0 auto;
 	direction: inherit;
 	min-height: 204px;
 }
-
-/* Place of slider CSS codes ... */
 
 footer.footer {
 	width: 950px;
