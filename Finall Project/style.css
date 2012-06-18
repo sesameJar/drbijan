@@ -232,6 +232,7 @@ div.slideshow{
 	width : 950px;
 	overflow : hidden;
 	margin : 0 auto;
+	position: relative;
 }
 
 div.slideshow .train{
@@ -254,8 +255,8 @@ div.slideshow .train > div > img{
 div.slideshow ul.btns{
 	list-style-type : none;
 	position:absolute;
-	left:620px;
-	top:390px;
+	left:450px;
+	top:230px;
 }
 
 div.slideshow li{
@@ -294,7 +295,7 @@ footer.footer {
 }
 
 footer.footer > div{    /*space between boxes and copyright panel*/
-		padding-bottom: 30px;
+	padding-bottom: 30px;
 } 
 
 footer div.box{
