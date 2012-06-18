@@ -160,10 +160,11 @@ nav.menu li span.home-img{
 	height: 31px;
 	background-image: url('images/home.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.home-img{
-	background-image: url('images/home1.png');
+	background-position: bottom;
 }
 
 nav.menu li span.news-img{
@@ -172,10 +173,11 @@ nav.menu li span.news-img{
 	height: 31px;
 	background-image: url('images/about.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.news-img{
-	background-image: url('images/about1.png');
+	background-position: bottom;
 }
 
 nav.menu li span.services-img{
@@ -184,10 +186,11 @@ nav.menu li span.services-img{
 	height: 31px;
 	background-image: url('images/services.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.services-img{
-	background-image: url('images/services1.png');
+	background-position: bottom;
 }
 
 nav.menu li span.products-img{
@@ -196,10 +199,11 @@ nav.menu li span.products-img{
 	height: 31px;
 	background-image: url('images/products.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.products-img{
-	background-image: url('images/products1.png');
+	background-position: bottom;
 }
 
 nav.menu li span.contacts-img{
@@ -208,10 +212,11 @@ nav.menu li span.contacts-img{
 	height: 31px;
 	background-image: url('images/contacts.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.contacts-img{
-	background-image: url('images/contacts1.png');
+	background-position: bottom;
 }
 
 nav.menu li a{
