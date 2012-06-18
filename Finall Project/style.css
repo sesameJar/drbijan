@@ -57,6 +57,8 @@ section.content-holder{
 section.content-holder article header{
 	direction: inherit;
 	min-height: 40px;
+	border-bottom: 1px dashed #aaa;
+	margin-bottom: 20px;
 }
 
 section.content-holder article header h1{
@@ -290,6 +292,46 @@ section.content-holder{ /*content of each page place in this section-holder*/
 	margin: 0 auto;
 	direction: inherit;
 	min-height: 204px;
+}
+
+section.index-blog{
+	direction: inherit;
+	padding: 20px 0;
+}
+
+section.index-blog section{
+	direction: inherit;
+	float: right;
+	width: 215px;
+	padding:0 10px;
+}
+
+section.index-blog:last-child{
+	direction: inherit;
+	margin-right: 712px;
+	padding-left: 10px;
+}
+
+section.index-blog section header div.index-blog-header-image{
+	float: right;
+	padding-left: 10px;
+}
+
+section.index-blog section header h2{
+	display: block;
+	direction: inherit;
+	color: #000;;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: inherit;
+	padding: 18px 66px 25px 0px;
+}
+
+section.index-blog section article p{
+	direction: inherit;
+	line-height: 12pt;
+	padding-bottom: 5px;
+	color: #666;
 }
 
 footer.footer {
