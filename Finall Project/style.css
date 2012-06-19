@@ -259,18 +259,18 @@ div.slideshow .train > div > img{
 
 div.slideshow ul.btns{
 	list-style-type : none;
-	position:absolute;
-	left:450px;
-	top:230px;
+	position: absolute;
+	left: 450px;
+	top: 230px;
 }
 
 div.slideshow li{
-	width:15px;
-	height:15px;
-	background-color:#FEF;
-	border-radius:50%;
-	float: left;
-	margin-right:5px;
+	width: 15px;
+	height: 15px;
+	background-color: #FEF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 5px;
 	-webkit-transition : all 800ms;
 	-ms-transition : all 800ms;
 	-o-transition : all 800ms;
@@ -310,9 +310,92 @@ section.index-blog:last-child{
 	padding-left: 10px;
 }
 
-section.index-blog section header div.index-blog-header-image{
+section.index-blog section header div.index-blog-header-image1{
 	float: right;
+	width: 56px;
+	height: 56px;
 	padding-left: 10px;
+	background-image: url('images/cyrcle1.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image1:hover{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image2{
+	float: right;
+	width: 56px;
+	height: 56px;
+	padding-left: 10px;
+	background-image: url('images/cyrcle2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image2:hover{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image3{
+	float: right;
+	width: 56px;
+	height: 56px;
+	padding-left: 10px;
+	background-image: url('images/cyrcle3.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image3:hover{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image4{
+	float: right;
+	width: 56px;
+	height: 56px;
+	padding-left: 10px;
+	background-image: url('images/cyrcle4.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image4:hover{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 section.index-blog section header h2{
