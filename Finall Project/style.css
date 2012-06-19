@@ -319,7 +319,7 @@ section.index-blog section header{
 section.index-blog section header h2{
 	display: block;
 	direction: inherit;
-	color: #000;;
+	color: #050;;
 	font-size: 15px;
 	font-weight: bold;
 	font-family: inherit;
@@ -327,7 +327,7 @@ section.index-blog section header h2{
 }
 
 section.index-blog section header h2:hover{
-	color: #060;
+	color: #090;
 }
 
 section.index-blog section header div.index-blog-header-image1{
