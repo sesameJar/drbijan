@@ -294,14 +294,15 @@ section.content-holder{ /*content of each page place in this section-holder*/
 
 section.index-blog{
 	direction: inherit;
-	padding: 20px 0;
+	padding-top: 30px;
+	min-height: 220px;
 }
 
 section.index-blog section{
 	direction: inherit;
 	float: right;
 	width: 215px;
-	padding:0 10px;
+	padding:10px;
 }
 
 section.index-blog:last-child{
@@ -310,92 +311,8 @@ section.index-blog:last-child{
 	padding-left: 10px;
 }
 
-section.index-blog section header div.index-blog-header-image1{
-	float: right;
-	width: 56px;
-	height: 56px;
-	padding-left: 10px;
-	background-image: url('images/cyrcle1.png');
-	background-repeat: no-repeat;
-	background-position: top;
-	-webkit-transition: all 400ms;
-	-ms-transition: all 400ms;
-	-o-transition: all 400ms;
-	-moz-transition: all 400ms;
-}
-
-section.index-blog section header div.index-blog-header-image1:hover{
-	background-position: bottom;
-	-webkit-transition: all 400ms;
-	-ms-transition: all 400ms;
-	-o-transition: all 400ms;
-	-moz-transition: all 400ms;
-}
-
-section.index-blog section header div.index-blog-header-image2{
-	float: right;
-	width: 56px;
-	height: 56px;
-	padding-left: 10px;
-	background-image: url('images/cyrcle2.png');
-	background-repeat: no-repeat;
-	background-position: top;
-	-webkit-transition: all 400ms;
-	-ms-transition: all 400ms;
-	-o-transition: all 400ms;
-	-moz-transition: all 400ms;
-}
-
-section.index-blog section header div.index-blog-header-image2:hover{
-	background-position: bottom;
-	-webkit-transition: all 400ms;
-	-ms-transition: all 400ms;
-	-o-transition: all 400ms;
-	-moz-transition: all 400ms;
-}
-
-section.index-blog section header div.index-blog-header-image3{
-	float: right;
-	width: 56px;
-	height: 56px;
-	padding-left: 10px;
-	background-image: url('images/cyrcle3.png');
-	background-repeat: no-repeat;
-	background-position: top;
-	-webkit-transition: all 400ms;
-	-ms-transition: all 400ms;
-	-o-transition: all 400ms;
-	-moz-transition: all 400ms;
-}
-
-section.index-blog section header div.index-blog-header-image3:hover{
-	background-position: bottom;
-	-webkit-transition: all 400ms;
-	-ms-transition: all 400ms;
-	-o-transition: all 400ms;
-	-moz-transition: all 400ms;
-}
-
-section.index-blog section header div.index-blog-header-image4{
-	float: right;
-	width: 56px;
-	height: 56px;
-	padding-left: 10px;
-	background-image: url('images/cyrcle4.png');
-	background-repeat: no-repeat;
-	background-position: top;
-	-webkit-transition: all 400ms;
-	-ms-transition: all 400ms;
-	-o-transition: all 400ms;
-	-moz-transition: all 400ms;
-}
-
-section.index-blog section header div.index-blog-header-image4:hover{
-	background-position: bottom;
-	-webkit-transition: all 400ms;
-	-ms-transition: all 400ms;
-	-o-transition: all 400ms;
-	-moz-transition: all 400ms;
+section.index-blog section header{
+	margin-bottom: 10px;
 }
 
 section.index-blog section header h2{
@@ -408,11 +325,121 @@ section.index-blog section header h2{
 	padding: 18px 66px 25px 0px;
 }
 
+section.index-blog section header h2:hover{
+	color: #060;
+}
+
+section.index-blog section header div.index-blog-header-image1{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle1.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header:hover div.index-blog-header-image1{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image2{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header:hover div.index-blog-header-image2{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image3{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle3.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header:hover div.index-blog-header-image3{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.index-blog-header-image4{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle4.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header:hover div.index-blog-header-image4{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
 section.index-blog section article p{
 	direction: inherit;
 	line-height: 12pt;
 	padding-bottom: 5px;
 	color: #666;
+}
+
+section.index-blog section.read-more a{
+	display: block;
+	padding: 2px 6px 6px 0;
+	margin-right: 125px;
+	margin-left: 3px;
+	background-color: #eee;
+	text-decoration: none;
+	direction: inherit;
+	color: #060;
+	border-radius: 10%;
+}
+
+section.index-blog section.read-more a:hover{
+	padding: 4px 6px 8px 0;
+	background-color: #060;
+	color: #eee;
+	-webkit-transition: all 150ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 footer.footer {
