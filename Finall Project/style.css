@@ -238,6 +238,7 @@ div.slideshow{
 	overflow : hidden;
 	margin : 0 auto;
 	position: relative;
+	z-index: 1;
 }
 
 div.slideshow .train{
@@ -295,7 +296,7 @@ section.content-holder{ /*content of each page place in this section-holder*/
 section.index-blog{
 	direction: inherit;
 	padding-top: 30px;
-	min-height: 220px;
+	min-height: 270px;
 }
 
 section.index-blog section{
