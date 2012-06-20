@@ -2,6 +2,7 @@
 	/*outline: 1px dashed red;*/
 }
 
+/************************************************ common ******************************************************/
 .clear{
 	clear:both;
 	width:0 !important;
@@ -18,7 +19,7 @@
 	font-family: Tahoma;
 	font-size: 12px;
 }
-
+/************************************************ header of all pages ******************************************************/
 .header-container{
 	margin: 0 auto;
 	direction: inherit;
@@ -150,7 +151,7 @@ nav.menu li a{
 	text-align: center;
 	text-decoration: inherit;
 }
-
+/************************************************ green line in all pages but index page ******************************************************/
 .green-line-container{
 	margin: 0 auto;
 	direction: inherit;
@@ -167,7 +168,7 @@ nav.menu li a{
 	background-image: url('images/green-line.jpg');
 	background-repeat: no-repeat;
 }
-
+/************************************************ sliders in index page ******************************************************/
 .slider-container{
 	margin: 0 auto;
 	direction: inherit;
@@ -228,7 +229,7 @@ div.slideshow li:hover{
 	-o-transition : all 200ms;
 	-moz-transition : all 200ms;
 }
-
+/************************************************ this place is common for all contents of all pages ******************************************************/
 .content-holder-container{
 	margin: 0 auto;
 	direction: inherit;
@@ -241,11 +242,11 @@ section.content-holder{
 	padding-bottom: 50px;
 	padding-top: 30px;
 }
-
+/************************************************ contents of each page place here ******************************************************/
 section.content-holder article{
 	padding:0 5px;
 }
-
+/************************************************ header of all articles in all pages ******************************************************/
 section.content-holder article header{
 	direction: inherit;
 	margin-left: 700px;
@@ -293,7 +294,7 @@ section.content-holder article:hover header h2{
 	-o-transition: all 400ms;
 	-moz-transition: all 400ms;
 }
-
+/************************************************ body of all articles in all pages ******************************************************/
 section.content-holder article.article-body{
 	direction: inherit;
 	margin-right: 165px;
@@ -326,7 +327,7 @@ section.content-holder article.article-body p{
 	padding-bottom: 5px;
 	color: #666;
 }
-
+/************************************************ blog's layout (1, 2, 3, 4, in index page) ******************************************************/
 section.index-blog{
 	direction: inherit;
 	margin-bottom: 30px;
@@ -344,7 +345,7 @@ section.index-blog:last-child{
 	margin-right: 712px;
 	padding-left: 10px;
 }
-
+/************************************************ header of all boxes in blog layout (1, 2, 3, 4, in index page) ******************************************************/
 section.index-blog section header{
 	margin-bottom: 5px;
 }
@@ -454,7 +455,7 @@ section.index-blog section:hover header h2{
 	-o-transition: all 400ms;
 	-moz-transition: all 400ms;
 }
-
+/************************************************ body of boxes in blog layout (1, 2, 3, 4, in index page) ******************************************************/
 section.index-blog section article section{
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
@@ -476,7 +477,7 @@ section.index-blog section article section p{
 	line-height: 12pt;
 	color: #666;
 }
-
+/************************************************ read more botton in all pages ******************************************************/
 .read-more a{
 	display: block;
 	padding: 2px 6px 6px 6px;
@@ -502,7 +503,7 @@ section.index-blog section article section p{
 	-o-transition: all 150ms;
 	-moz-transition: all 150ms;
 }
-
+/************************************************ footer's layout in all pages ******************************************************/
 .footer-container{
 	margin: 0 auto;
 	direction: inherit;
@@ -572,7 +573,7 @@ footer.footer ul li a:active{
 footer.footer ul li a:visited{
 	color: #555;
 }
-
+/************************************************ copy-right's layout in all pages ******************************************************/
 .copyright-container{
 	margin: 0 auto;
 	padding: 20px;
