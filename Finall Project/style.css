@@ -168,7 +168,7 @@ nav.menu li a{
 	background-image: url('images/green-line.jpg');
 	background-repeat: no-repeat;
 }
-/************************************************ sliders in index page ******************************************************/
+/************************************************ slider in index page ******************************************************/
 .slider-container{
 	margin: 0 auto;
 	direction: inherit;
@@ -245,11 +245,12 @@ section.content-holder{
 /************************************************ contents of each page place here ******************************************************/
 section.content-holder article{
 	padding:0 5px;
+
 }
 /************************************************ header of all articles in all pages ******************************************************/
 section.content-holder article header{
 	direction: inherit;
-	margin-left: 700px;
+	border-top: 1px dashed #aaa;
 	padding: 10px 0;
 }
 
@@ -276,6 +277,7 @@ section.content-holder article:hover header div.header-image5{
 }
 
 section.content-holder article header h2{
+	margin-left: 700px;
 	margin-right: 70px;
 	padding: 20px 0;
 	font-size: 13px;
@@ -306,7 +308,7 @@ section.content-holder article.article-body{
 	-moz-transition: all 400ms;
 }
 
-section.content-holder article.article-body:hover{
+section.content-holder article:hover article.article-body{
 	background-color: #efe;
 	-webkit-transition: all 400ms;
 	-ms-transition: all 400ms;
@@ -315,10 +317,34 @@ section.content-holder article.article-body:hover{
 }
 
 
-section.content-holder div.article-image{
+section.content-holder article div.article-image{
 	float: right;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
 	width: 150px;
 	height: 150px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.content-holder article:hover div.article-image{
+	float: right;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	width: 150px;
+	height: 150px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 section.content-holder article.article-body p{
@@ -477,7 +503,182 @@ section.index-blog section article section p{
 	line-height: 12pt;
 	color: #666;
 }
+/************************************************ products blog ***************************************/
+section.product-blog{
+	direction: inherit;
+	margin-bottom: 30px;
+}
+
+section.product-blog section {
+	direction: inherit;
+	float: right;
+	width: 215px;
+	margin:0 10px;
+}
+
+section.product-blog:last-child{
+	direction: inherit;
+	margin-right: 712px;
+	padding-left: 10px;
+}
+/************************************************ header of boxes in products blog layout  (in products page) ******************************************************/
+section.product-blog section header{
+	margin-bottom: 5px;
+}
+
+section.product-blog section header div.header-image1{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle1.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header div.header-image1{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section header div.header-image2{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header div.header-image2{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section header div.header-image3{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle3.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header div.header-image3{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section header div.header-image4{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle4.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header div.header-image4{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section header h2{
+	display: block;
+	direction: inherit;
+	color: #050;;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: inherit;
+	padding: 18px 66px 25px 0px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header h2{
+	color: #090;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+/************************************************ body of boxes in products blog layout (in product page) ******************************************************/
+section.product-blog section article section{
+	background-image: url('images/sampleproduct.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section{
+	background-image: url('images/sampleproduct.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding:0 5px 0 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+	
+}
+
+section.product-blog section article section p{
+	direction: inherit;
+	line-height: 12pt;
+	color: #666;
+	opacity: 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section p{
+	background-color: #efe;
+	opacity: 1;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
 /************************************************ read more botton in all pages ******************************************************/
+.read-more{
+	display: block;
+	background-color: #fff;
+}
+
 .read-more a{
 	display: block;
 	padding: 2px 6px 6px 6px;
