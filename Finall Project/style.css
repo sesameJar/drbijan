@@ -2,15 +2,14 @@
 	/*outline: 1px dashed red;*/
 }
 
+/************************************************ common ******************************************************/
 .clear{
 	clear:both;
-	width: 0;
-	height: 0;
-	min-height: 0;
-	min-width: 0;
-	border: 0 none;
-	padding: 0;
-	margin: 0;
+	width:0 !important;
+	height:0 !important;
+	min-height:0 !important;
+	min-width:0 !important;
+	overflow:hidden;
 }
 
 
@@ -20,50 +19,13 @@
 	font-family: Tahoma;
 	font-size: 12px;
 }
-
+/************************************************ header of all pages ******************************************************/
 .header-container{
 	margin: 0 auto;
 	direction: inherit;
 	min-height: 160px;
 	background-image: url('images/bg.jpg');
 	background-repeat: repeat-x;
-}
-
-.green-line-container{
-	margin: 0 auto;
-	direction: inherit;
-	min-height: 20px;
-	background-image: url('images/back-green-line.png');
-	background-repeat: repeat-x;
-}
-
-.slider-container{
-	margin: 0 auto;
-	direction: inherit;
-	min-height: 274px;
-	background-image: url('images/back-green-line.png');
-	background-repeat: repeat;
-}
-
-.content-holder-container{
-	margin: 0 auto;
-	direction: inherit;
-	min-height: 204px;
-}
-
-.footer-container{
-	margin: 0 auto;
-	direction: inherit;
-	min-height: 231px;
-	background-image: url(images/bg.jpg);
-	background-repeat: repeat;
-}
-
-.copyright-container{
-	margin: 0 auto;
-	padding: 20px;
-	direction: inherit;
-	background-color: black;
 }
 
 .header{
@@ -126,10 +88,11 @@ nav.menu li span.home-img{
 	height: 31px;
 	background-image: url('images/home.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.home-img{
-	background-image: url('images/home1.png');
+	background-position: bottom;
 }
 
 nav.menu li span.news-img{
@@ -138,10 +101,11 @@ nav.menu li span.news-img{
 	height: 31px;
 	background-image: url('images/about.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.news-img{
-	background-image: url('images/about1.png');
+	background-position: bottom;
 }
 
 nav.menu li span.services-img{
@@ -150,10 +114,11 @@ nav.menu li span.services-img{
 	height: 31px;
 	background-image: url('images/services.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.services-img{
-	background-image: url('images/services1.png');
+	background-position: bottom;
 }
 
 nav.menu li span.products-img{
@@ -162,10 +127,11 @@ nav.menu li span.products-img{
 	height: 31px;
 	background-image: url('images/products.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.products-img{
-	background-image: url('images/products1.png');
+	background-position: bottom;
 }
 
 nav.menu li span.contacts-img{
@@ -174,15 +140,24 @@ nav.menu li span.contacts-img{
 	height: 31px;
 	background-image: url('images/contacts.png');
 	background-repeat: no-repeat;
+	background-position: top;
 }
 
 nav.menu li:hover span.contacts-img{
-	background-image: url('images/contacts1.png');
+	background-position: bottom;
 }
 
 nav.menu li a{
 	text-align: center;
 	text-decoration: inherit;
+}
+/************************************************ green line in all pages but index page ******************************************************/
+.green-line-container{
+	margin: 0 auto;
+	direction: inherit;
+	min-height: 20px;
+	background-image: url('images/back-green-line.png');
+	background-repeat: repeat-x;
 }
 
 .green-line{
@@ -193,15 +168,550 @@ nav.menu li a{
 	background-image: url('images/green-line.jpg');
 	background-repeat: no-repeat;
 }
-
-section.content-holder{ /*content of each page place in this section-holder*/
-	width: 950px;
+/************************************************ slider in index page ******************************************************/
+.slider-container{
 	margin: 0 auto;
 	direction: inherit;
-	min-height: 204px;
+	min-height: 274px;
+	background-image: url('images/back-green-line.png');
+	background-repeat: repeat;
 }
 
-/* Place of slider CSS codes ... */
+div.slideshow{
+	width : 950px;
+	overflow : hidden;
+	margin : 0 auto;
+	position: relative;
+	z-index: 1;
+}
+
+div.slideshow .train{
+	width : 3900px;
+	position : relative;
+	-webkit-transition : left 916ms;
+	-ms-transition : all 916ms;
+	-o-transition : all 916ms;
+	-moz-transition : all 916ms;
+}
+
+div.slideshow .train > div{
+	float : right;
+}
+
+div.slideshow .train > div > img{
+  display : block;
+}
+
+div.slideshow ul.btns{
+	list-style-type : none;
+	position: absolute;
+	left: 450px;
+	top: 230px;
+}
+
+div.slideshow li{
+	width: 15px;
+	height: 15px;
+	background-color: #FEF;
+	border-radius: 50%;
+	float: right;
+	margin-right: 5px;
+	-webkit-transition : all 800ms;
+	-ms-transition : all 800ms;
+	-o-transition : all 800ms;
+	-moz-transition : all 800ms;
+}
+
+div.slideshow li:hover{
+	background-color:#111;
+	-webkit-transition : all 200ms;
+	-ms-transition : all 200ms;
+	-o-transition : all 200ms;
+	-moz-transition : all 200ms;
+}
+/************************************************ this place is common for all contents of all pages ******************************************************/
+.content-holder-container{
+	margin: 0 auto;
+	direction: inherit;
+}
+
+section.content-holder{
+	direction: inherit;
+	width: 950px;
+	margin: 0 auto;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}
+/************************************************ contents of each page place here ******************************************************/
+section.content-holder article{
+	padding:0 5px;
+
+}
+/************************************************ header of all articles in all pages ******************************************************/
+section.content-holder article header{
+	direction: inherit;
+	border-top: 1px dashed #aaa;
+	padding: 10px 0;
+}
+
+section.content-holder article header div.header-image5{
+	float: right;
+	height: 56px;
+	width: 56px;
+	margin-left: 10px;
+	background-image: url('images/cyrcle5.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.content-holder article:hover header div.header-image5{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.content-holder article header h2{
+	margin-left: 700px;
+	margin-right: 70px;
+	padding: 20px 0;
+	font-size: 13px;
+	color: #060;
+	font-weight: bold;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.content-holder article:hover header h2{
+	color: #090;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+/************************************************ body of all articles in all pages ******************************************************/
+section.content-holder article.article-body{
+	direction: inherit;
+	margin-right: 165px;
+	border-bottom: 1px dashed #aaa;
+	padding: 10px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.content-holder article:hover article.article-body{
+	background-color: #efe;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+
+section.content-holder article div.article-image{
+	float: right;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	-moz-opacity:0.5;
+	-khtml-opacity: 0.5;
+	opacity: 0.5;
+	width: 150px;
+	height: 150px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.content-holder article:hover div.article-image{
+	float: right;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter: alpha(opacity=100);
+	-moz-opacity: 1;
+	-khtml-opacity: 1;
+	opacity: 1;
+	width: 150px;
+	height: 150px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.content-holder article.article-body p{
+	direction: inherit;
+	line-height: 12pt;
+	padding-bottom: 5px;
+	color: #666;
+}
+/************************************************ blog's layout (1, 2, 3, 4, in index page) ******************************************************/
+section.index-blog{
+	direction: inherit;
+	margin-bottom: 30px;
+}
+
+section.index-blog section {
+	direction: inherit;
+	float: right;
+	width: 215px;
+	margin:0 10px;
+}
+
+section.index-blog:last-child{
+	direction: inherit;
+	margin-right: 712px;
+	padding-left: 10px;
+}
+/************************************************ header of all boxes in blog layout (1, 2, 3, 4, in index page) ******************************************************/
+section.index-blog section header{
+	margin-bottom: 5px;
+}
+
+section.index-blog section header div.header-image1{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle1.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section:hover header div.header-image1{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.header-image2{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section:hover header div.header-image2{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.header-image3{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle3.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section:hover header div.header-image3{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header div.header-image4{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle4.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section:hover header div.header-image4{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section header h2{
+	display: block;
+	direction: inherit;
+	color: #050;;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: inherit;
+	padding: 18px 66px 25px 0px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section:hover header h2{
+	color: #090;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+/************************************************ body of boxes in blog layout (1, 2, 3, 4, in index page) ******************************************************/
+section.index-blog section article section{
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section:hover article section{
+	padding:0 5px;
+	background-color: #efe;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.index-blog section article section p{
+	direction: inherit;
+	line-height: 12pt;
+	color: #666;
+}
+/************************************************ products blog ***************************************/
+section.product-blog{
+	direction: inherit;
+	margin-bottom: 30px;
+}
+
+section.product-blog section {
+	direction: inherit;
+	float: right;
+	width: 215px;
+	margin:0 10px;
+}
+
+section.product-blog:last-child{
+	direction: inherit;
+	margin-right: 712px;
+	padding-left: 10px;
+}
+/************************************************ header of boxes in products blog layout  (in products page) ******************************************************/
+section.product-blog section header{
+	margin-bottom: 5px;
+}
+
+section.product-blog section header div.header-image1{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle1.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header div.header-image1{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section header div.header-image2{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle2.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header div.header-image2{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section header div.header-image3{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle3.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header div.header-image3{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section header div.header-image4{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle4.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header div.header-image4{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section header h2{
+	display: block;
+	direction: inherit;
+	color: #050;;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: inherit;
+	padding: 18px 66px 25px 0px;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header h2{
+	color: #090;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+/************************************************ body of boxes in products blog layout (in product page) ******************************************************/
+section.product-blog section article section{
+	background-image: url('images/sampleproduct.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section{
+	background-image: url('images/sampleproduct.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding:0 5px 0 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+	
+}
+
+section.product-blog section article section p{
+	direction: inherit;
+	line-height: 12pt;
+	color: #666;
+	opacity: 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section p{
+	background-color: #efe;
+	opacity: 1;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+/************************************************ read more botton in all pages ******************************************************/
+.read-more{
+	display: block;
+	background-color: #fff;
+}
+
+.read-more a{
+	display: block;
+	padding: 2px 6px 6px 6px;
+	float: left;
+	margin: 3px;
+	background-color: #eee;
+	text-decoration: none;
+	direction: inherit;
+	color: #060;
+	border-radius: 7%;
+	-webkit-transition: all 150ms;
+	-ms-transition: all 150ms;
+	-o-transition: all 150ms;
+	-moz-transition: all 150ms;
+}
+
+.read-more a:hover{
+	padding: 2px 8px 6px 8px;
+	background-color: #060;
+	color: #eee;
+	-webkit-transition: all 150ms;
+	-ms-transition: all 150ms;
+	-o-transition: all 150ms;
+	-moz-transition: all 150ms;
+}
+/************************************************ footer's layout in all pages ******************************************************/
+.footer-container{
+	margin: 0 auto;
+	direction: inherit;
+	min-height: 231px;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
+}
 
 footer.footer {
 	width: 950px;
@@ -211,7 +721,7 @@ footer.footer {
 }
 
 footer.footer > div{    /*space between boxes and copyright panel*/
-		padding-bottom: 30px;
+	padding-bottom: 30px;
 } 
 
 footer div.box{
@@ -263,6 +773,13 @@ footer.footer ul li a:active{
 
 footer.footer ul li a:visited{
 	color: #555;
+}
+/************************************************ copy-right's layout in all pages ******************************************************/
+.copyright-container{
+	margin: 0 auto;
+	padding: 20px;
+	direction: inherit;
+	background-color: black;
 }
 
 div.copyright{
