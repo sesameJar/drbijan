@@ -24,6 +24,7 @@ div.container{
 	background-image:url(images/bg.jpg);
 }
 .menu{
+	background-image:url(images/bg.jpg);
 	margin-left:361px;
 	min-height:160px;
 }
@@ -80,7 +81,7 @@ section.secondrow div.box4{
 }
 .firstrowf{
 	margin: 30px 200px 30px 200px;
-	min-height:194px;
+	min-height:200px;
 
 }
 .tb1{
@@ -106,9 +107,7 @@ section.secondrow div.box4{
 .sub{
 	margin-left:711;
 }
-.secondrowf{
-	min-height:127px;
-}
+
 .reallogo{
 	width:288px;
 	min-height:94px;
@@ -231,4 +230,8 @@ nav.menu li:hover span.contacts-img{
 nav.menu li a{
 	text-align: center;
 	text-decoration: none;
+}
+.secondrowf{
+	height:113px;
+
 }
