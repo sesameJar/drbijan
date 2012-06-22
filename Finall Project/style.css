@@ -171,7 +171,7 @@ nav.menu li a{
 /************************************************ slider in index page ******************************************************/
 .slider-container{
 	margin: 0 auto;
-	direction: inherit;
+	direction: ltr;
 	min-height: 274px;
 	background-image: url('images/back-green-line.png');
 	background-repeat: repeat;
@@ -183,6 +183,7 @@ div.slideshow{
 	margin : 0 auto;
 	position: relative;
 	z-index: 1;
+	direction: ltr;
 }
 
 div.slideshow .train{
@@ -192,14 +193,18 @@ div.slideshow .train{
 	-ms-transition : all 916ms;
 	-o-transition : all 916ms;
 	-moz-transition : all 916ms;
+	direction: ltr;
 }
 
 div.slideshow .train > div{
-	float : right;
+	float : left;
+	direction: ltr;
+	width:950px;
 }
 
 div.slideshow .train > div > img{
-  display : block;
+  	display : block;
+  	width:950px;
 }
 
 div.slideshow ul.btns{
