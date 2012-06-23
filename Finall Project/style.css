@@ -171,7 +171,7 @@ nav.menu li a{
 /************************************************ slider in index page ******************************************************/
 .slider-container{
 	margin: 0 auto;
-	direction: inherit;
+	direction: ltr;
 	min-height: 274px;
 	background-image: url('images/back-green-line.png');
 	background-repeat: repeat;
@@ -183,6 +183,7 @@ div.slideshow{
 	margin : 0 auto;
 	position: relative;
 	z-index: 1;
+	direction: ltr;
 }
 
 div.slideshow .train{
@@ -192,14 +193,18 @@ div.slideshow .train{
 	-ms-transition : all 916ms;
 	-o-transition : all 916ms;
 	-moz-transition : all 916ms;
+	direction: ltr;
 }
 
 div.slideshow .train > div{
-	float : right;
+	float : left;
+	direction: ltr;
+	width:950px;
 }
 
 div.slideshow .train > div > img{
-  display : block;
+  	display : block;
+  	width:950px;
 }
 
 div.slideshow ul.btns{
@@ -245,7 +250,6 @@ section.content-holder{
 /************************************************ contents of each page place here ******************************************************/
 section.content-holder article{
 	padding:0 5px;
-
 }
 /************************************************ header of all articles in all pages ******************************************************/
 section.content-holder article header{
@@ -610,6 +614,27 @@ section.product-blog section:hover header div.header-image4{
 	-moz-transition: all 400ms;
 }
 
+section.product-blog section header div.header-image-thalgo{
+	float: right;
+	width: 56px;
+	height: 56px;
+	background-image: url('images/cyrcle-thalgo.png');
+	background-repeat: no-repeat;
+	background-position: top;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover header div.header-image-thalgo{
+	background-position: bottom;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
 section.product-blog section header h2{
 	display: block;
 	direction: inherit;
@@ -632,8 +657,8 @@ section.product-blog section:hover header h2{
 	-moz-transition: all 400ms;
 }
 /************************************************ body of boxes in products blog layout (in product page) ******************************************************/
-section.product-blog section article section{
-	background-image: url('images/sampleproduct.png');
+section.product-blog section article section.prod1{
+	background-image: url('images/prod1.png');
 	background-repeat: no-repeat;
 	background-position: left;
 	-webkit-transition: all 400ms;
@@ -642,8 +667,8 @@ section.product-blog section article section{
 	-moz-transition: all 400ms;
 }
 
-section.product-blog section:hover article section{
-	background-image: url('images/sampleproduct.png');
+section.product-blog section:hover article section.prod1{
+	background-image: url('images/prod1.png');
 	background-repeat: no-repeat;
 	background-position: right;
 	padding:0 5px 0 0;
@@ -651,7 +676,153 @@ section.product-blog section:hover article section{
 	-ms-transition: all 400ms;
 	-o-transition: all 400ms;
 	-moz-transition: all 400ms;
-	
+}
+
+section.product-blog section article section.prod2{
+	background-image: url('images/prod2.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section.prod2{
+	background-image: url('images/prod2.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding:0 5px 0 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section article section.prod3{
+	background-image: url('images/prod3.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section.prod3{
+	background-image: url('images/prod3.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding:0 5px 0 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section article section.prod4{
+	background-image: url('images/prod4.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section.prod4{
+	background-image: url('images/prod4.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding:0 5px 0 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section article section.prod5{
+	background-image: url('images/prod5.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section.prod5{
+	background-image: url('images/prod5.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding:0 5px 0 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section article section.prod6{
+	background-image: url('images/prod6.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section.prod6{
+	background-image: url('images/prod6.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding:0 5px 0 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section article section.prod7{
+	background-image: url('images/prod7.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section.prod7{
+	background-image: url('images/prod7.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding:0 5px 0 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section article section.prod8{
+	background-image: url('images/prod8.png');
+	background-repeat: no-repeat;
+	background-position: left;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
+}
+
+section.product-blog section:hover article section.prod8{
+	background-image: url('images/prod8.png');
+	background-repeat: no-repeat;
+	background-position: right;
+	padding:0 5px 0 0;
+	-webkit-transition: all 400ms;
+	-ms-transition: all 400ms;
+	-o-transition: all 400ms;
+	-moz-transition: all 400ms;
 }
 
 section.product-blog section article section p{
