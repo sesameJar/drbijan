@@ -20,12 +20,12 @@ The website for the **Dr Bijanfar Farmecy And Skin Care Clinic** company
 
 ###The Team
 * [**Ali Mihandoost**](http://github.com/Alimd) Teacher  & Technical Manager
-* [**Aidin toussi**](http://github.com/Aidin2c) Project Manager / Developer
+* [**Aidin toussi**](http://github.com/Aidin-toussi) Project Manager / Graphic Designer / Developer
 * [**Shahrum Hoseinabadi**](https://github.com/Shahrum) Designer / Developer
 * [**Mehrad Kavian**](https://github.com/MKDesign) Designer / Developer
 * [**Soheil**](https://github.com/Soheil1999) Data Gather
 
-###Our designing idea is : http://www.goldentech.org/layout1
+###Our Desire Design Is : http://www.goldentech.org/layout1
 
 ### All rights reserved ###
 Please note that Bijanfar.ir is a curated site and that we reserve the right to refuse any listing for any reason.
