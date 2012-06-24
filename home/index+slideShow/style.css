@@ -1,0 +1,311 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+/* outline: 1px dashed red; */
+}
+
+.clear{
+  clear:both;
+  width: 0;
+  height: 0;
+  min-height: 0;
+  min-width: 0;
+  border: 0 none;
+  padding: 0;
+  margin: 0;
+}
+
+div.main-container{
+	margin: 0 auto;
+	direction: rtl;
+	font-family: Tahoma;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+div.main-back{
+	width:6000px;
+	position: absolute;
+	z-index: -1;
+}
+
+div.background-up-texture{
+	min-height: 160px;
+	background-image: url('images/bg.jpg');
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+div.background-green-line{
+	min-height: 273px;
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color:rgb(58,158,1);
+	
+}
+
+div.container{
+	width: 950px;
+	margin: 0 auto;
+	direction: rtl;
+	font-family: Tahoma;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.header{
+	min-height: 110px;
+	padding-top: 50px;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
+}
+
+.logo {
+	float: right;
+	margin-right: 70px;
+}
+
+.menu{
+	margin-right: 420px;
+	margin-top: 35px;
+}
+
+nav.menu ul{
+	list-style-type: none;
+}
+
+nav.menu li{
+	float: right;
+	margin: 0 18px;
+}
+
+nav.menu li span{
+	text-align: center;
+	display: block;
+	margin-bottom: 4px;
+}
+
+nav.menu li span.up-line{
+	font-family: inherit;
+	font-size: 14px;
+	font-weight: bold;
+	color: #ccc;
+}
+
+nav.menu li:hover span.up-line{
+	color: #282;
+}
+
+nav.menu li span.down-line{
+	font-family: inherit;
+	font-size: 13px;
+	font-weight: 300;
+	color: #555;
+}
+
+nav.menu li:hover span.down-line{
+	color: #aaa;
+}
+
+nav.menu li span.home-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/home.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li:hover span.home-img{
+	background-image: url('images/home1.png');
+}
+
+nav.menu li span.news-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/about.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li:hover span.news-img{
+	background-image: url('images/about1.png');
+}
+
+nav.menu li span.services-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/services.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li:hover span.services-img{
+	background-image: url('images/services1.png');
+}
+
+nav.menu li span.products-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/products.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li:hover span.products-img{
+	background-image: url('images/products1.png');
+}
+
+nav.menu li span.contacts-img{
+	margin: 0 auto;
+	width: 37px;
+	height: 31px;
+	background-image: url('images/contacts.png');
+	background-repeat: no-repeat;
+}
+
+nav.menu li:hover span.contacts-img{
+	background-image: url('images/contacts1.png');
+}
+
+nav.menu li a{
+	text-align: center;
+	text-decoration: inherit;
+}
+
+.green-line{
+	margin-bottom: 50px; /* important for white space bellow of green line*/
+	min-height: 20px;
+	background-repeat: no-repeat;
+	background-position: top;
+	background-color:rgb(81,156,1);
+}
+
+section.content-holder{ /*content of each page place in this section-holder*/
+	min-height: 204px;
+}
+
+
+
+footer.footer {
+	padding-top: 1px;
+	background-image: url(images/bg.jpg);
+	background-repeat: repeat;
+}
+
+footer.footer > div{ /* space between boxes and copyright panel*/
+	margin-bottom: 20px;
+}
+
+footer div.box{
+	float: right;
+	width: 215px;
+	padding-left: 22px;
+}
+
+footer div.last-box{
+	margin-right: 712px;
+	padding-left: 22px;
+}
+
+footer div h1 {
+	color: #060;;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: inherit;
+	padding: 45px 10px 20px 10px;
+}
+
+footer.footer ul{
+	list-style-type:none;
+}
+
+footer.footer ul li{
+	display: block;
+	border-top:1px dashed #444;
+	padding:7px 14px 9px 0px;
+	font-family: inherit;
+	font-size: 13px;
+	color: #aaa;
+}
+
+footer.footer ul li a{
+	font-family: inherit;
+	text-decoration: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+footer.footer ul li a:hover{
+	color: #060;
+}
+
+footer.footer ul li a:active{
+	color: #3a3;
+}
+
+footer.footer ul li a:visited{
+	color: #555;
+}
+
+footer div.copyright{
+	min-height: 35px;
+	padding: 36px 325px 40px;
+	color: #aaa;
+	font-family: inherit;
+	font-size: inherit;
+	text-align: center;
+	background-color: #000;
+}
+
+div.slideshow{
+	width : 950px;
+	overflow : hidden;
+	margin : 0 auto;
+}
+
+div.slideshow .train{
+	width : 3900px; /* 4*950 + meghdar vase adam taghir dar ayande */
+	position : relative;
+	-webkit-transition : left 916ms;
+	-ms-transition : all 916ms;
+	-o-transition : all 916ms;
+	-moz-transition : all 916ms;
+}
+
+div.slideshow .train > div{
+	float : right;
+}
+
+div.slideshow .train > div > img{
+  display : block;
+}
+
+div.slideshow ul.btns{
+	list-style-type : none;
+	position:absolute;
+	left:620px;
+	top:390px;
+}
+
+div.slideshow li{
+	width:15px;
+	height:15px;
+	background-color:#FEF;
+	border-radius:50%;
+	float: left;
+	margin-right:5px;
+	-webkit-transition : all 800ms;
+	-ms-transition : all 800ms;
+	-o-transition : all 800ms;
+	-moz-transition : all 800ms;
+}
+
+div.slideshow li:hover{
+	background-color:#111;
+	-webkit-transition : all 200ms;
+	-ms-transition : all 200ms;
+	-o-transition : all 200ms;
+	-moz-transition : all 200ms;
+}
+
