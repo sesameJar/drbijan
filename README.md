@@ -1,5 +1,5 @@
 ##DrBijan wesite : Bijanfar.ir
-The website for the **Dr Bijanfar Farmecy And Skin Care Clinic** company
+The website for the **Dr Bijanfar Farmecy And Skin Care Clinic** company.
 
 
 ###Contributing
@@ -12,7 +12,7 @@ The website for the **Dr Bijanfar Farmecy And Skin Care Clinic** company
 ```
 
 
-###Buliding Technologies
+###Building Technologies
 * [HTML5](http://ali.md/wiki/html5)
 * [CSS3](http://ali.md/css3ref)
 * [1Styles](http://ali.md/1styles)
