@@ -22,7 +22,7 @@ The website for the **Dr Bijanfar Farmecy And Skin Care Clinic** company.
 * [**Ali Mihandoost**](http://github.com/Alimd) Teacher  & Technical Manager
 * [**Aidin toussi**](http://github.com/Aidin-toussi) Project Manager / Graphic Designer / Developer
 * [**Shahrum Hoseinabadi**](https://github.com/Shahrum) Designer / Developer
-* [**Mehrad Kavian**](https://github.com/MKDesign) Designer / Developer
+* [**Mohammad Reza Kavian**](https://github.com/MKDesign) Designer / Developer
 * [**Soheil**](https://github.com/Soheil1999) Data Gather
 
 ###Our Desire Design Is : http://www.goldentech.org/layout1
