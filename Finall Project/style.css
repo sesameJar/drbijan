@@ -321,53 +321,44 @@ section.content-holder article:hover header h2 {
 ******************************************************/
 
 section.content-holder article.article-body {
-	direction         : inherit;
-	margin-right      : 165px;
-	border-bottom     : 1px dashed #aaa;
-	padding           : 10px;
-	-webkit-transition: all 400ms;
-	-ms-transition    : all 400ms;
-	-o-transition     : all 400ms;
-	-moz-transition   : all 400ms;
-}
-
-section.content-holder article:hover article.article-body {
-	background-color   : #efe;
+	direction          : inherit;
+	margin-right       : 165px;
+	border-bottom      : 1px dashed #aaa;
+	padding            : 10px;
+	transition         : all 400ms;
 	-webkit-transition : all 400ms;
 	-ms-transition     : all 400ms;
 	-o-transition      : all 400ms;
 	-moz-transition    : all 400ms;
+}
+
+section.content-holder article:hover article.article-body {
+	background-color : #efe;
 }
 
 
 section.content-holder article div.article-image {
-	float             : right;
-	opacity           : 0.5;
-	width             : 150px;
-	height            : 150px;
-	-ms-filter        : "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
-	filter            : alpha(opacity=5);
-	-moz-opacity      : 0.5;
-	-khtml-opacity    : 0.5;
-	-webkit-transition: all 400ms;
-	-ms-transition    : all 400ms;
-	-o-transition     : all 400ms;
-	-moz-transition   : all 400ms;
-}
-
-section.content-holder article:hover div.article-image {
 	float              : right;
-	opacity            : 1;
+	opacity            : 0.5;
 	width              : 150px;
 	height             : 150px;
-	-ms-filter         : "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-	filter             : alpha(opacity=100);
-	-moz-opacity       : 1;
-	-khtml-opacity     : 1;
+	-ms-filter         : "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter             : alpha(opacity=5);
+	-moz-opacity       : 0.5;
+	-khtml-opacity     : 0.5;
+	transition         : all 400ms;
 	-webkit-transition : all 400ms;
 	-ms-transition     : all 400ms;
 	-o-transition      : all 400ms;
 	-moz-transition    : all 400ms;
+}
+
+section.content-holder article:hover div.article-image {
+	opacity            : 1;
+	-ms-filter         : "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+	filter             : alpha(opacity=100);
+	-moz-opacity       : 1;
+	-khtml-opacity     : 1;
 }
 
 section.content-holder article.article-body p {
@@ -414,24 +405,21 @@ section.index-blog section header {
 }
 
 section.index-blog section header div.header-image1 {
-	float              : right;
-	width              : 56px;
-	height             : 56px;
-	background-image   : url('images/cyrcle1.png');
-	background-repeat  : no-repeat;
-	background-position: top;
-	-webkit-transition : all 400ms;
-	-ms-transition     : all 400ms;
-	-o-transition      : all 400ms;
-	-moz-transition    : all 400ms;
-}
-
-section.index-blog section:hover header div.header-image1 {
-	background-position : bottom;
+	float               : right;
+	width               : 56px;
+	height              : 56px;
+	background-image    : url('images/cyrcle1.png');
+	background-repeat   : no-repeat;
+	background-position : top;
+	transition          : all 400ms;
 	-webkit-transition  : all 400ms;
 	-ms-transition      : all 400ms;
 	-o-transition       : all 400ms;
 	-moz-transition     : all 400ms;
+}
+
+section.index-blog section:hover header div.header-image1 {
+	background-position : bottom;
 }
 
 section.index-blog section header div.header-image2 {
@@ -441,6 +429,7 @@ section.index-blog section header div.header-image2 {
 	background-image    : url('images/cyrcle2.png');
 	background-repeat   : no-repeat;
 	background-position : top;
+	transition          : all 400ms;
 	-webkit-transition  : all 400ms;
 	-ms-transition      : all 400ms;
 	-o-transition       : all 400ms;
@@ -449,95 +438,77 @@ section.index-blog section header div.header-image2 {
 
 section.index-blog section:hover header div.header-image2 {
 	background-position : bottom;
+}
+
+section.index-blog section header div.header-image3 {
+	float               : right;
+	width               : 56px;
+	height              : 56px;
+	background-image    : url('images/cyrcle3.png');
+	background-repeat   : no-repeat;
+	background-position : top;
+	transition          : all 400ms;
 	-webkit-transition  : all 400ms;
 	-ms-transition      : all 400ms;
 	-o-transition       : all 400ms;
 	-moz-transition     : all 400ms;
 }
 
-section.index-blog section header div.header-image3 {
-	float              : right;
-	width              : 56px;
-	height             : 56px;
-	background-image   : url('images/cyrcle3.png');
-	background-repeat  : no-repeat;
-	background-position: top;
-	-webkit-transition : all 400ms;
-	-ms-transition     : all 400ms;
-	-o-transition      : all 400ms;
-	-moz-transition    : all 400ms;
-}
-
 section.index-blog section:hover header div.header-image3 {
 	background-position: bottom;
-	-webkit-transition : all 400ms;
-	-ms-transition     : all 400ms;
-	-o-transition      : all 400ms;
-	-moz-transition    : all 400ms;
 }
 
 section.index-blog section header div.header-image4 {
-	float              : right;
-	width              : 56px;
-	height             : 56px;
-	background-image   : url('images/cyrcle4.png');
-	background-repeat  : no-repeat;
-	background-position: top;
-	-webkit-transition : all 400ms;
-	-ms-transition     : all 400ms;
-	-o-transition      : all 400ms;
-	-moz-transition    : all 400ms;
+	float               : right;
+	width               : 56px;
+	height              : 56px;
+	background-image    : url('images/cyrcle4.png');
+	background-repeat   : no-repeat;
+	background-position : top;
+	transition          : all 400ms;
+	-webkit-transition  : all 400ms;
+	-ms-transition      : all 400ms;
+	-o-transition       : all 400ms;
+	-moz-transition     : all 400ms;
 }
 
 section.index-blog section:hover header div.header-image4 {
-	background-position: bottom;
-	-webkit-transition : all 400ms;
-	-ms-transition     : all 400ms;
-	-o-transition      : all 400ms;
-	-moz-transition    : all 400ms;
+	background-position : bottom;
 }
 
 section.index-blog section header h2 {
-	display           : block;
-	direction         : inherit;
-	color             : #050;
-	font-size         : 15px;
-	font-weight       : bold;
-	font-family       : inherit;
-	padding           : 18px 66px 25px 0px;
-	-webkit-transition: all 400ms;
-	-ms-transition    : all 400ms;
-	-o-transition     : all 400ms;
-	-moz-transition   : all 400ms;
-}
-
-section.index-blog section:hover header h2 {
-	color              : #090;
+	display            : block;
+	direction          : inherit;
+	color              : #050;
+	font-size          : 15px;
+	font-weight        : bold;
+	font-family        : inherit;
+	padding            : 18px 66px 25px 0px;
+	transition         : all 400ms;
 	-webkit-transition : all 400ms;
 	-ms-transition     : all 400ms;
 	-o-transition      : all 400ms;
 	-moz-transition    : all 400ms;
+}
+
+section.index-blog section:hover header h2 {
+	color : #090;
 }
 
 /* BODY of boxes in blog layout (1, 2, 3, 4, in index page) 
 ******************************************************/
 
 section.index-blog section article section {
-	transition        : all 400ms;
-	-webkit-transition: all 400ms;
-	-ms-transition    : all 400ms;
-	-o-transition     : all 400ms;
-	-moz-transition   : all 400ms;
-}
-
-section.index-blog section:hover article section {
-	padding            : 0 5px;
-	background-color   : #efe;
 	transition         : all 400ms;
 	-webkit-transition : all 400ms;
 	-ms-transition     : all 400ms;
 	-o-transition      : all 400ms;
 	-moz-transition    : all 400ms;
+}
+
+section.index-blog section:hover article section {
+	padding          : 0 5px;
+	background-color : #efe;
 }
 
 section.index-blog section article section p {
@@ -558,7 +529,7 @@ section.product-blog section {
 	direction : inherit;
 	float     : right;
 	width     : 215px;
-	margin    :0 10px;
+	margin    : 0 10px;
 }
 
 section.product-blog:last-child {
@@ -575,26 +546,21 @@ section.product-blog section header {
 }
 
 section.product-blog section header div.header-image1 {
-	float              : right;
-	width              : 56px;
-	height             : 56px;
-	background-image   : url('images/cyrcle1.png');
-	background-repeat  : no-repeat;
-	background-position: top;
-	transition         : all 400ms;
-	-webkit-transition : all 400ms;
-	-ms-transition     : all 400ms;
-	-o-transition      : all 400ms;
-	-moz-transition    : all 400ms;
-}
-
-section.product-blog section:hover header div.header-image1 {
-	background-position : bottom;
+	float               : right;
+	width               : 56px;
+	height              : 56px;
+	background-image    : url('images/cyrcle1.png');
+	background-repeat   : no-repeat;
+	background-position : top;
 	transition          : all 400ms;
 	-webkit-transition  : all 400ms;
 	-ms-transition      : all 400ms;
 	-o-transition       : all 400ms;
 	-moz-transition     : all 400ms;
+}
+
+section.product-blog section:hover header div.header-image1 {
+	background-position : bottom;
 }
 
 section.product-blog section header div.header-image2 {
@@ -635,17 +601,17 @@ section.product-blog section:hover header div.header-image3 {
 }
 
 section.product-blog section header div.header-image4 {
-	float              : right;
-	width              : 56px;
-	height             : 56px;
-	background-image   : url('images/cyrcle4.png');
-	background-repeat  : no-repeat;
-	background-position: top;
-	transition         : all 400ms;
-	-webkit-transition : all 400ms;
-	-ms-transition     : all 400ms;
-	-o-transition      : all 400ms;
-	-moz-transition    : all 400ms;
+	float               : right;
+	width               : 56px;
+	height              : 56px;
+	background-image    : url('images/cyrcle4.png');
+	background-repeat   : no-repeat;
+	background-position : top;
+	transition          : all 400ms;
+	-webkit-transition  : all 400ms;
+	-ms-transition      : all 400ms;
+	-o-transition       : all 400ms;
+	-moz-transition     : all 400ms;
 }
 
 section.product-blog section:hover header div.header-image4 {
@@ -671,18 +637,18 @@ section.product-blog section:hover header div.header-image-thalgo {
 }
 
 section.product-blog section header h2 {
-	display           : block;
-	direction         : inherit;
-	color             : #050;;
-	font-size         : 15px;
-	font-weight       : bold;
-	font-family       : inherit;
-	padding           : 18px 66px 25px 0px;
-	transition        : all 400ms;
-	-webkit-transition: all 400ms;
-	-ms-transition    : all 400ms;
-	-o-transition     : all 400ms;
-	-moz-transition   : all 400ms;
+	display            : block;
+	direction          : inherit;
+	color              : #050;;
+	font-size          : 15px;
+	font-weight        : bold;
+	font-family        : inherit;
+	padding            : 18px 66px 25px 0px;
+	transition         : all 400ms;
+	-webkit-transition : all 400ms;
+	-ms-transition     : all 400ms;
+	-o-transition      : all 400ms;
+	-moz-transition    : all 400ms;
 }
 
 section.product-blog section:hover header h2 {
@@ -739,24 +705,24 @@ section.product-blog section article section.prod3 {
 }
 
 section.product-blog section:hover article section.prod3 {
-	background-position: right;
-	padding            : 0 5px 0 0;
+	background-position : right;
+	padding             : 0 5px 0 0;
 }
 
 section.product-blog section article section.prod4 {
-	background-image   : url('images/prod4.png');
-	background-repeat  : no-repeat;
-	background-position: left;
-	transition         : all 400ms;
-	-webkit-transition : all 400ms;
-	-ms-transition     : all 400ms;
-	-o-transition      : all 400ms;
-	-moz-transition    : all 400ms;
+	background-image    : url('images/prod4.png');
+	background-repeat   : no-repeat;
+	background-position : left;
+	transition          : all 400ms;
+	-webkit-transition  : all 400ms;
+	-ms-transition      : all 400ms;
+	-o-transition       : all 400ms;
+	-moz-transition     : all 400ms;
 }
 
 section.product-blog section:hover article section.prod4 {
-	background-position: right;
-	padding:0 5px 0 0;
+	background-position : right;
+	padding             : 0 5px 0 0;
 }
 
 section.product-blog section article section.prod5 {
@@ -803,8 +769,8 @@ section.product-blog section article section.prod7{
 }
 
 section.product-blog section:hover article section.prod7 {
-	background-position: right;
-	padding            :0 5px 0 0;
+	background-position : right;
+	padding             : 0 5px 0 0;
 }
 
 section.product-blog section article section.prod8 {
@@ -825,19 +791,20 @@ section.product-blog section:hover article section.prod8 {
 }
 
 section.product-blog section article section p{
-	direction         : inherit;
-	line-height       : 12pt;
-	color             : #666;
-	opacity           : 0;
-	-webkit-transition: all 400ms;
-	-ms-transition    : all 400ms;
-	-o-transition     : all 400ms;
-	-moz-transition   : all 400ms;
+	direction          : inherit;
+	line-height        : 12pt;
+	color              : #666;
+	opacity            : 0;
+	transition         : all 400ms;
+	-webkit-transition : all 400ms;
+	-ms-transition     : all 400ms;
+	-o-transition      : all 400ms;
+	-moz-transition    : all 400ms;
 }
 
 section.product-blog section:hover article section p {
-	background-color: #efe;
-	opacity         : 1;
+	background-color : #efe;
+	opacity          : 1;
 }
 
 /* read more botton in all pages
@@ -925,10 +892,10 @@ footer.footer ul li {
 }
 
 footer.footer ul li a {
-	font-family    : inherit;
-	text-decoration: inherit;
-	font-size      : inherit;
-	color          : inherit;
+	font-family     : inherit;
+	text-decoration : inherit;
+	font-size       : inherit;
+	color           : inherit;
 }
 
 footer.footer ul li a:hover {
